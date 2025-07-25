@@ -1,8 +1,8 @@
 <div align="center">
-	<a href="https://www.qloapps.com"><img src="https://forums.qloapps.com/assets/uploads/system/site-logo.png?v=hkl8e1230fo" alt="QloApps"></a>
+	<a href="https://chwakahouse.co.tz/"><img src="https://forums.qloapps.com/assets/uploads/system/site-logo.png?v=hkl8e1230fo" alt="Chwaka House"></a>
 	<br>
 	<p>
-		<b>QloApps - An open source and free platform to launch your own hotel booking website</b>
+		<b>The Chwaka House - Powered by QloApps: An open source and free platform to launch your own hotel booking website</b>
 	</p>
 </div>
 
@@ -33,15 +33,15 @@
 
 ### Introduction
 
-QloApps is one kind of a true open-source hotel reservation system and a booking engine. The system is dedicated to channeling the power of the open-source community to serve the hospitality industry.
+The Chwaka House is a hotel management system powered by QloApps, a true open-source hotel reservation system and booking engine. The system is dedicated to channeling the power of the open-source community to serve the hospitality industry.
 
-From small independent hotels to big hotel chains, QloApps is a one-stop solution for all your hotel business needs.
+From small independent hotels to big hotel chains, The Chwaka House (with QloApps) is a one-stop solution for all your hotel business needs.
 
 You will be able to launch your hotel website, showcase your property and take and manage bookings.
 
 ### Requirements
 
-In order to install QloApps you will need the following server configurations for hosted and local serves.
+In order to install The Chwaka House (QloApps) you will need the following server configurations for hosted and local servers.
 The system compatibility will also be checked by the system with installation and if the server is not compatible then the installation will not move ahead.
 
 #### Hosted Server Configurations
@@ -66,7 +66,7 @@ The system compatibility will also be checked by the system with installation an
 
 ### Installation and Configuration
 
-**1.** You can install QloApps easily after downloading QloApps. There are easy steps for the installation process. Please visit [QloApps Installation Guide](https://qloapps.com/install-qloapps/) and follow the steps for the successful installation.
+**1.** You can install The Chwaka House (QloApps) easily after downloading. There are easy steps for the installation process. Please visit [QloApps Installation Guide](https://qloapps.com/install-qloapps/) and follow the steps for the successful installation.
 
 **2.** Or you can install QloApps with docker image. For the docker image of QloApps, please visit [Dockerize image of QloApps](https://hub.docker.com/r/webkul/qloapps_docker) <br>
 * Docker pull command
@@ -84,7 +84,7 @@ The online copy of AFL-3.0 can be found at [https://opensource.org/licenses/AFL-
 
 ### Security Vulnerabilities
 
-Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in QloApps then please email us: mailto:support@qloapps.com.
+Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in The Chwaka House (QloApps) then please email us: mailto:support@qloapps.com.
 
 ### Documentation & Demo
 
@@ -100,4 +100,4 @@ As a PHP developer who has command on PHP and MySQL and also knows how to use Gi
 For more information about the contribution process please check **[Contribute to QloApps](/CONTRIBUTING.md)**
 
 ### Credits
-Crafted with :heart: at [Webkul](https://webkul.com)
+Crafted with :heart: at [Webkul](https://webkul.com)  |  Chwaka House Official Website: https://chwakahouse.co.tz/

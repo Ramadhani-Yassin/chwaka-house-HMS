@@ -2,16 +2,16 @@
 	<a href="https://chwakahouse.co.tz/"><img src="https://forums.qloapps.com/assets/uploads/system/site-logo.png?v=hkl8e1230fo" alt="Chwaka House"></a>
 	<br>
 	<p>
-		<b>The Chwaka House - Powered by QloApps: An open source and free platform to launch your own hotel booking website</b>
+		<b>The Chwaka House - An open source and free platform to launch your own hotel booking website</b>
 	</p>
 </div>
 
 <p align="center">
-	<a href="https://qloapps.com/download/"><img src="https://img.shields.io/badge/Download-Download%20QloApps%20-brightgreen" alt="Download"></a>
-	<a href="https://docs.qloapps.com/"><img src="https://img.shields.io/badge/Documentation-Blog-yellowgreen" alt="Documentation"></a>
-	<a href="https://forums.qloapps.com/"><img src="https://img.shields.io/badge/Forum-Help%2FSupport-green" alt="Forum"></a>
-	<a href="https://qloapps.com/addons/"><img src="https://img.shields.io/badge/Addons-Plugins-blueviolet" alt="Addons"></a>
-	<a href="https://qloapps.com/contact/"><img src="https://img.shields.io/badge/Contact-Get%20In%20Touch-blue" alt="Contact us"></a>
+	<a href="#"><img src="https://img.shields.io/badge/Download-Download%20Chwaka%20House%20-brightgreen" alt="Download"></a>
+	<a href="#"><img src="https://img.shields.io/badge/Documentation-Guide-yellowgreen" alt="Documentation"></a>
+	<a href="#"><img src="https://img.shields.io/badge/Forum-Help%2FSupport-green" alt="Forum"></a>
+	<a href="#"><img src="https://img.shields.io/badge/Addons-Plugins-blueviolet" alt="Addons"></a>
+	<a href="#"><img src="https://img.shields.io/badge/Contact-Get%20In%20Touch-blue" alt="Contact us"></a>
 	<a href="/LICENSE.md"><img src="https://img.shields.io/badge/License-OSL%20V3-green" alt="License"></a>
 </p>
 
@@ -25,23 +25,20 @@
 	- [License](#license)
 	- [Security Vulnerabilities](#security-vulnerabilities)
 	- [Documentation & Demo](#documentation--demo)
-		- [QloApps Documentation](#qloapps-documentation)
-		- [QloApps Demo](#qloapps-demo)
-	- [Contribute](#contribute)
 	- [Credits](#credits)
 
 
 ### Introduction
 
-The Chwaka House is a hotel management system powered by QloApps, a true open-source hotel reservation system and booking engine. The system is dedicated to channeling the power of the open-source community to serve the hospitality industry.
+The Chwaka House is a hotel management system, a true open-source hotel reservation system and booking engine. The system is dedicated to channeling the power of the open-source community to serve the hospitality industry.
 
-From small independent hotels to big hotel chains, The Chwaka House (with QloApps) is a one-stop solution for all your hotel business needs.
+From small independent hotels to big hotel chains, The Chwaka House is a one-stop solution for all your hotel business needs.
 
 You will be able to launch your hotel website, showcase your property and take and manage bookings.
 
 ### Requirements
 
-In order to install The Chwaka House (QloApps) you will need the following server configurations for hosted and local servers.
+In order to install The Chwaka House you will need the following server configurations for hosted and local servers.
 The system compatibility will also be checked by the system with installation and if the server is not compatible then the installation will not move ahead.
 
 #### Hosted Server Configurations
@@ -66,17 +63,17 @@ The system compatibility will also be checked by the system with installation an
 
 ### Installation and Configuration
 
-**1.** You can install The Chwaka House (QloApps) easily after downloading. There are easy steps for the installation process. Please visit [QloApps Installation Guide](https://qloapps.com/install-qloapps/) and follow the steps for the successful installation.
+**1.** You can install The Chwaka House easily after downloading. There are easy steps for the installation process. Please visit the official website or contact support for installation guidance.
 
-**2.** Or you can install QloApps with docker image. For the docker image of QloApps, please visit [Dockerize image of QloApps](https://hub.docker.com/r/webkul/qloapps_docker) <br>
-* Docker pull command
+**2.** Or you can use a docker image if available. For docker images, please refer to the official documentation or contact support. <br>
+* Docker pull command (example)
 ~~~
-docker pull webkul/qloapps_docker
+docker pull chwakahouse/chwaka-house
 ~~~
 
 ### License
 
-QloApps Core is licensed under OSL-3.0 and Modules authored by Webkul have their applicable license, LICENSE.md, kept inside their root directories, while other modules are licensed under AFL-3.0.
+The Chwaka House Core is licensed under OSL-3.0 and modules may have their applicable license, LICENSE.md, kept inside their root directories, while other modules may be licensed under AFL-3.0.
 
 The online copy of OSL-3.0 can be found at [https://opensource.org/licenses/OSL-3.0](https://opensource.org/licenses/OSL-3.0).
 
@@ -84,20 +81,11 @@ The online copy of AFL-3.0 can be found at [https://opensource.org/licenses/AFL-
 
 ### Security Vulnerabilities
 
-Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in The Chwaka House (QloApps) then please email us: mailto:support@qloapps.com.
+Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in The Chwaka House then please email us: mailto:support@chwakahouse.co.tz.
 
 ### Documentation & Demo
 
-#### QloApps Documentation
-[https://docs.qloapps.com](https://docs.qloapps.com)
-#### QloApps Demo
-**Link** : https://demo.qloapps.com </br>
-**username** : demo@demo.com </br>
-**Password** : demodemo </br>
-
-### Contribute
-As a PHP developer who has command on PHP and MySQL and also knows how to use Git or GitHub efficiently, can contribute to code enhancements via pull requests.<br>
-For more information about the contribution process please check **[Contribute to QloApps](/CONTRIBUTING.md)**
+Documentation and demo will be available soon. For now, please visit the [official website](https://chwakahouse.co.tz/) or contact support for more information.
 
 ### Credits
 Crafted with :heart: at [Webkul](https://webkul.com)  |  Chwaka House Official Website: https://chwakahouse.co.tz/

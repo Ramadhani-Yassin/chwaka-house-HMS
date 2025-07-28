@@ -57,16 +57,26 @@ class AdminDashboardControllerCore extends AdminController
     public function initPageHeaderToolbar()
     {
         $this->page_header_toolbar_title = $this->l('Dashboard');
-        $this->page_header_toolbar_btn['switch_demo'] = array(
-            'desc' => $this->l('Demo mode', null, null, false),
-            'icon' => 'process-icon-toggle-'.(Configuration::get('PS_DASHBOARD_SIMULATION') ? 'on' : 'off'),
-            'help' => $this->l('This mode displays sample data so you can try your dashboard without real numbers.', null, null, false)
-        );
+        // Hide Demo mode button
+        // $this->page_header_toolbar_btn['switch_demo'] = array(
+        //     'desc' => $this->l('Demo mode', null, null, false),
+        //     'icon' => 'process-icon-toggle-'.(Configuration::get('PS_DASHBOARD_SIMULATION') ? 'on' : 'off'),
+        //     'help' => $this->l('This mode displays sample data so you can try your dashboard without real numbers.', null, null, false)
+        // );
 
         parent::initPageHeaderToolbar();
 
         // Remove the last element on this controller to match the title with the rule of the others
         array_pop($this->meta_title);
+    }
+
+    /**
+     * Override to hide Recommendations button on dashboard
+     */
+    protected function addPageHeaderToolBarModulesListButton()
+    {
+        // Do nothing - this prevents the Recommendations button from being added
+        return;
     }
 
     protected function getOptionFields()

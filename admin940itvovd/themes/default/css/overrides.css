@@ -3,3 +3,8 @@
 #page-header-desc-dashboard-switch_demo {
     display: none !important;
 }
+
+/* Hide Recommendations button on dashboard */
+#page-header-desc-dashboard-modules-list {
+    display: none !important;
+}

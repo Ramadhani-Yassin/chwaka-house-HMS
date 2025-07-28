@@ -127,7 +127,7 @@ const BookingSearchManager = {
                 e.preventDefault();
 
                 $('.location_search_results_ul').empty().hide();
-                $('#hotel_location').attr('value', $(this).html());
+                $('#hotel_location').attr('value', 'Chwaka Zanzibar');
                 $('#location_category_id').val($(this).val());
 
                 // fetch hotels for selected location
@@ -845,7 +845,7 @@ $(document).ready(function() {
             && e.target.id != 'hotel_location'
         ) {
             $('.location_search_results_ul').hide();
-            $('#hotel_location').attr('placeholder', hotel_location_txt);
+            $('#hotel_location').attr('placeholder', 'Chwaka Zanzibar');
         }
 
         // check if user clicked outside calendar

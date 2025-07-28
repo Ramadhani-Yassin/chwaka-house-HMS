@@ -310,24 +310,27 @@ $(document).ready(function() {
     bindSubmitDashConfig();
     bindCancelDashConfig();
 
-    $('#page-header-desc-configuration-switch_demo').tooltip().click(function(e) {
-        $.ajax({
-            url: dashboard_ajax_url,
-            data: {
-                ajax: true,
-                action: 'setSimulationMode',
-                PS_DASHBOARD_SIMULATION: $(this).find('i').hasClass('process-icon-toggle-on') ? 0 : 1
-            },
-            success: function(result) {
-                if ($('#page-header-desc-configuration-switch_demo i').hasClass('process-icon-toggle-on')) {
-                    $('#page-header-desc-configuration-switch_demo i').removeClass('process-icon-toggle-on').addClass('process-icon-toggle-off');
-                } else {
-                    $('#page-header-desc-configuration-switch_demo i').removeClass('process-icon-toggle-off').addClass('process-icon-toggle-on');
+    // Only bind demo mode button events if the button exists (it's hidden in this installation)
+    if ($('#page-header-desc-configuration-switch_demo').length) {
+        $('#page-header-desc-configuration-switch_demo').tooltip().click(function(e) {
+            $.ajax({
+                url: dashboard_ajax_url,
+                data: {
+                    ajax: true,
+                    action: 'setSimulationMode',
+                    PS_DASHBOARD_SIMULATION: $(this).find('i').hasClass('process-icon-toggle-on') ? 0 : 1
+                },
+                success: function(result) {
+                    if ($('#page-header-desc-configuration-switch_demo i').hasClass('process-icon-toggle-on')) {
+                        $('#page-header-desc-configuration-switch_demo i').removeClass('process-icon-toggle-on').addClass('process-icon-toggle-off');
+                    } else {
+                        $('#page-header-desc-configuration-switch_demo i').removeClass('process-icon-toggle-off').addClass('process-icon-toggle-on');
+                    }
+                    refreshDashboard(false, false);
                 }
-                refreshDashboard(false, false);
-            }
+            });
         });
-    });
+    }
 
     $(document).on('change', '.stats-filter-hotel', function() {
         $('#submit-stats-hotel').removeAttr('disabled');

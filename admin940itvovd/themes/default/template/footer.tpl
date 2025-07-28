@@ -67,10 +67,7 @@
 				{l s='Forum'}
 			</a>
 			/&nbsp;
-			<a href="https://qloapps.com/addons/" class="footer_link _blank">
-				<i class="icon-puzzle-piece"></i>
-				{l s='Addons'}
-			</a>
+			<!-- Addons link removed -->
 			/&nbsp;
 			<a href="https://docs.qloapps.com/" class="footer_link _blank">
 				<i class="icon-book"></i>

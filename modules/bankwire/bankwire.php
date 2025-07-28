@@ -207,6 +207,9 @@ class Bankwire extends PaymentModule
             return;
         }
 
+        // Add CSS for styling
+        $this->context->controller->addCSS($this->_path.'views/css/bankwire.css');
+
         $objOrder = $params['objOrder'];
         $idOrderState = $objOrder->getCurrentState();
         $objOrderState = new OrderState($idOrderState);

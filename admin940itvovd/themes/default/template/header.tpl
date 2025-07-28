@@ -302,15 +302,15 @@
 						<li class="hidden-md hidden-sm hidden-xs"><a href="{$upgrade_info->upgrade_url}">{l s='QloApps Update Availabe:'} {$upgrade_info->latest_availabe}</a></li>
 					{/if}
 					<li class="hidden-sm hidden-xs">
-						<a target="_blank" href="https://qloapps.com/addons/" class="toolbar_btn" title="{l s='Explore QloApps Addons'}">
+						<a target="_blank" href="http://chwakahouse.co.tz/" class="toolbar_btn" title="{l s='Explore QloApps Addons'}">
 							<i class="icon-chain-broken"></i>
-							{l s='Explore QloApps Addons'}
+							{l s='The Chwaka House Web'}
 						</a>
 					</li>
 					{if {$base_url}}
 						<li>
 							<a href="{if isset($base_url_tc)}{$base_url_tc|escape:'html':'UTF-8'}{else}{$base_url|escape:'html':'UTF-8'}{/if}" id="header_foaccess" class="_blank" title="{l s='View my shop'}">
-								<span class="string-long">{l s='My site'}</span>
+								<span class="string-long">{l s='Booking Site'}</span>
 								<span class="string-short">{l s='Site'}</span>
 							</a>
 							{if isset($maintenance_mode) && $maintenance_mode == true}

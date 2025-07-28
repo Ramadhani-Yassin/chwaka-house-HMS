@@ -1,0 +1,144 @@
+/* Bank Wire Payment Notification Styling */
+.bankwire-instructions {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bankwire-instructions h4 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.bankwire-instructions h5 {
+    color: #34495e;
+    margin: 20px 0 10px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.payment-details {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.payment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.payment-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-list li:last-child {
+    border-bottom: none;
+}
+
+.payment-list .price {
+    color: #e74c3c;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.payment-list .highlight {
+    color: #2980b9;
+    font-weight: 600;
+    background: #ecf0f1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.transfer-steps {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.transfer-steps ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.transfer-steps li {
+    padding: 6px 0;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+.order-reference {
+    margin: 15px 0;
+}
+
+.order-reference .alert-info {
+    background: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 0;
+}
+
+.processing-time {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.processing-time h5 {
+    color: #856404;
+    margin: 0 0 10px 0;
+}
+
+.processing-time p {
+    color: #856404;
+    margin: 0;
+    font-size: 0.95em;
+}
+
+.alert-success h4 {
+    color: #155724;
+    margin-bottom: 10px;
+}
+
+.alert-success i {
+    color: #28a745;
+    margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bankwire-instructions {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .payment-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .payment-list .highlight {
+        word-break: break-all;
+    }
+} 

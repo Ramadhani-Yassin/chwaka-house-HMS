@@ -28,7 +28,7 @@
 		{l s='Please send us a bank wire with:' mod='bankwire'}
 		<br />- {l s='Amount' mod='bankwire'} <span class="price"><strong>{$total_to_pay}</strong></span>
 		<br />- {l s='Name of account owner:' mod='bankwire'}  <strong>{if $bankwireOwner}{$bankwireOwner}{else}___________{/if}</strong>
-		<br />- {l s='Include these details:' mod='bankwire'}  <strong>{if $bankwireDetails}{$bankwireDetails}{else}___________{/if}</strong>
+		<br />- {l s='NOTE:' mod='bankwire'}  <strong>{if $bankwireDetails}{$bankwireDetails}{else}___________{/if}</strong>
 		<br />- {l s='Bank address:' mod='bankwire'}  <strong>{if $bankwireAddress}{$bankwireAddress}{else}___________{/if}</strong>
 		<br />
 		{if !isset($reference)}

@@ -15,7 +15,7 @@
 *
 * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
 * versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
+* needs please refer to http://www.prestashop.com for more information.n
 *
 *  @author PrestaShop SA <contact@prestashop.com>
 *  @copyright  2007-2017 PrestaShop SA
@@ -25,9 +25,9 @@
 <div id="login-panel">
 	<div id="login-header">
 		<h1 class="text-center">
-			<img id="logo" src="{$img_dir}qloapps@2x.png" width="123px" alt="PrestaShop" />
+			<span style="font-size: 24px; font-weight: bold; color: #333;">The Chwaka House</span>
 		</h1>
-		<div class="text-center">{$qloapps_version}</div>
+		<div class="text-center" style="display: none;">{$qloapps_version}</div>
 		<div id="error" class="hide alert alert-danger">
 		{if isset($errors)}
 			<h4>
@@ -49,7 +49,7 @@
 		<div class="alert alert-warning">{$warningSslMessage}</div>
 		{/if}
 	</div>
-	<div id="shop-img"><img src="{$img_dir}qloapps-login@2x.png" alt="{$shop_name}" width="136px" height="136px" /></div>
+
 	<div class="flip-container">
 		<div class="flipper">
 			<div class="front panel">

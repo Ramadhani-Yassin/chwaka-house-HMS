@@ -8,3 +8,27 @@
 #page-header-desc-dashboard-modules-list {
     display: none !important;
 }
+
+/* Remove Qlo app logo and version text from admin dashboard header */
+#header_shopversion {
+    background: none !important;
+    background-image: none !important;
+    padding-left: 10px !important;
+}
+
+/* Replace admin panel header logo with custom logo */
+#header_shopversion {
+    background: url('../../logo/logo.png') no-repeat top left !important;
+    background-size: auto 36px !important;
+    padding-left: 140px !important;
+}
+
+/* Hide version text in admin panel header */
+#shop_version {
+    display: none !important;
+}
+
+/* Hide the shop-img element since we removed the logo */
+#shop-img {
+    display: none !important;
+}

@@ -29,49 +29,44 @@
 <div id="footer" class="bootstrap hide">
 
 	<div class="col-sm-2 hidden-xs">
-		<a href="https://webkul.com" class="_blank">Webkul&trade;</a>
+		<a href="https://chwakahouse.co.tz/" class="_blank">The Chwaka House</a>
 		-
 		<span id="footer-load-time"><i class="icon-time" title="{l s='Load time: '}"></i> {number_format(microtime(true) - $timer_start, 3, '.', '')}s</span>
 	</div>
 
 	<div class="col-sm-2 hidden-xs">
 		<div class="social-networks">
-			<a class="link-social link-twitter _blank" href="https://twitter.com/qloapps" title="Twitter">
-				<i class="icon-twitter"></i>
-			</a>
-			<a class="link-social link-facebook _blank" href="https://www.facebook.com/qloapps" title="Facebook">
+			<a class="link-social link-facebook _blank" href="https://facebook.com/people/The-Chwaka-House/61577186942001/" title="Facebook">
 				<i class="icon-facebook"></i>
 			</a>
-			<a class="link-social link-github _blank" href="https://github.com/webkul/hotelcommerce" title="Github">
-				<i class="icon-github"></i>
+			<a class="link-social link-instagram _blank" href="https://www.instagram.com/the_chwaka_house/" title="Instagram">
+				<i class="icon-instagram"></i>
 			</a>
-			<a class="link-social link-google _blank" href="https://plus.google.com/110221570427070809661" title="Google">
-				<i class="icon-google-plus"></i>
+			<a class="link-social link-phone _blank" href="tel:+255676456679" title="Call Us">
+				<i class="icon-phone"></i>
 			</a>
 		</div>
 	</div>
 	<div class="col-sm-5">
 		<div class="footer-contact">
-			<a href="https://qloapps.com/contact/" class="footer_link _blank">
+			<a href="https://chwakahouse.co.tz/contact/" class="footer_link _blank">
 				<i class="icon-envelope"></i>
-				{l s='Contact'}
+				{l s='Contact Us'}
 			</a>
 			/&nbsp;
-			<a href="https://forums.qloapps.com/category/7/bug-report" class="footer_link _blank">
-				<i class="icon-bug"></i>
-				{l s='Bug Tracker'}
+			<a href="https://chwakahouse.co.tz/about/" class="footer_link _blank">
+				<i class="icon-info"></i>
+				{l s='About Us'}
 			</a>
 			/&nbsp;
-			<a href="https://forums.qloapps.com/" class="footer_link _blank">
-				<i class="icon-comments"></i>
-				{l s='Forum'}
+			<a href="https://chwakahouse.co.tz/rooms/" class="footer_link _blank">
+				<i class="icon-home"></i>
+				{l s='Our Rooms'}
 			</a>
 			/&nbsp;
-			<!-- Addons link removed -->
-			/&nbsp;
-			<a href="https://docs.qloapps.com/" class="footer_link _blank">
-				<i class="icon-book"></i>
-				{l s='Training'}
+			<a href="https://chwakahouse.co.tz/booking/" class="footer_link _blank">
+				<i class="icon-calendar"></i>
+				{l s='Book Now'}
 			</a>
 			{if $host_mode}
 			/&nbsp;

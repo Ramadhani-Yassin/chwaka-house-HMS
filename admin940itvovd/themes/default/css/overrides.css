@@ -16,11 +16,16 @@
     padding-left: 10px !important;
 }
 
-/* Replace admin panel header logo with custom logo */
+/* Hide the question mark icon completely */
+#header_shopversion:before {
+    display: none !important;
+}
+
+/* Additional rules to ensure no background images show */
 #header_shopversion {
-    background: url('../../logo/logo.png') no-repeat top left !important;
-    background-size: auto 36px !important;
-    padding-left: 140px !important;
+    background: none !important;
+    background-image: none !important;
+    background-size: auto !important;
 }
 
 /* Hide version text in admin panel header */

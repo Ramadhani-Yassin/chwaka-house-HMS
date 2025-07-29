@@ -49,7 +49,7 @@
 	</div>
 	<div class="col-sm-5">
 		<div class="footer-contact">
-			<a href="https://chwakahouse.co.tz/contact/" class="footer_link _blank">
+			<a href="https://chwakahouse.co.tz/contacts/" class="footer_link _blank">
 				<i class="icon-envelope"></i>
 				{l s='Contact Us'}
 			</a>
@@ -59,12 +59,12 @@
 				{l s='About Us'}
 			</a>
 			/&nbsp;
-			<a href="https://chwakahouse.co.tz/rooms/" class="footer_link _blank">
+			<a href="https://chwakahouse.co.tz/room-list/" class="footer_link _blank">
 				<i class="icon-home"></i>
 				{l s='Our Rooms'}
 			</a>
 			/&nbsp;
-			<a href="https://chwakahouse.co.tz/booking/" class="footer_link _blank">
+			<a href="https://chwakahouse.co.tz/room-list/" class="footer_link _blank">
 				<i class="icon-calendar"></i>
 				{l s='Book Now'}
 			</a>
